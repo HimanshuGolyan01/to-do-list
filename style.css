@@ -1,0 +1,53 @@
+#h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#main {
+    border: black 2px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    
+}
+#main input {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
+#main button {
+    background-color: rgb(38, 164, 16);
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    font-size: 15px;
+    font-style: bold;
+    font-weight: 600;
+    color: white;
+}
+
+#todolist {
+    background-color: rgb(124, 251, 119);
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#todolist div{
+    background-color: rgb(36, 147, 32);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90%;
+}
